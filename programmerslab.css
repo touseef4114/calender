@@ -1,0 +1,45 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+		@media (max-width: 767px) {
+			.desktop-hours {
+				display: none;
+			}
+
+			.mobile-number {
+				display: inline-block;
+			}
+
+			.text-center.text-md-right {
+				text-align: center;
+			}
+		}
+
+		@media (min-width: 768px) {
+			.mobile-number {
+				display: none;
+			}
+		}
+
+
+		/* news sessions */
+		.news-section {
+			overflow-x: auto;
+		}
+
+		.news-area {
+			background-color: #f07b14;
+			color: white;
+			text-align: left;
+			font-size: 20px;
+		}
+
+		.news {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		.news a {
+			color: #0094d9;
+		}
+	</style>
